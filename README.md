@@ -41,7 +41,7 @@ Git SCM URL : <https://git-scm.com/>
 
 > ### git config --list
 
-![확인](src/serCheck.png)  
+![확인](src/userCheck.png)  
 - --list 옵션을 통해 사용자 확인 가능  
 
 ## **(3) Git 저장소 생성**
