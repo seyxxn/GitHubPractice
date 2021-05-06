@@ -334,19 +334,19 @@ Git SCM URL : <https://git-scm.com/>
 ---
 | 명령어 | 사용 여부 | 설명 부분 링크 |  
 |:-------|:---------:|--------------:|
-| add | 본문 2 | 본문 3|
-| branch | 본문 2 | 본문 3|
-| checkout | 본문 2 | 본문 3|
-| clone | 본문 2 | 본문 3|
-| commit | 본문 2 | 본문 3|
-| config | 본문 2 | 본문 3|
-| init | 본문 2 | 본문 3|
-| log | 본문 2 | 본문 3|
-| merge | 본문 2 | 본문 3|
-| pull | 본문 2 | 본문 3|
-| push | 본문 2 | 본문 3|
-| rebase | 본문 2 | 본문 3|
-| remote | 본문 2 | 본문 3|
-| reset --hard | 본문 2 | 본문 3|
-| status| 본문 2 | 본문 3|
-| tag | 본문 2 | 본문 3|
+| add | O |https://github.com/seyxxn/GitHubPractice#42--%ED%8C%8C%EC%9D%BC-%EC%B6%94%EC%A0%81%ED%95%98%EA%B8%B0|
+| branch | O | https://github.com/seyxxn/GitHubPractice#47-%EB%B8%8C%EB%9E%9C%EC%B9%98branch-%EC%82%AC%EC%9A%A9|
+| checkout | O |https://github.com/seyxxn/GitHubPractice#473-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%9D%B4%EB%8F%99-%ED%95%98%EA%B8%B0|
+| clone | O |https://github.com/seyxxn/GitHubPractice#322-git-clone-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%82%AC%EC%9A%A9|
+| commit | O | https://github.com/seyxxn/GitHubPractice#44-%EB%B3%80%EA%B2%BD%EC%82%AC%ED%95%AD-%ED%99%95%EC%A0%95-%ED%95%98%EA%B8%B0|
+| config | O |https://github.com/seyxxn/GitHubPractice#23-git-%EC%82%AC%EC%9A%A9%EC%9E%90-%EB%93%B1%EB%A1%9D-%EB%B0%8F-%ED%99%95%EC%9D%B8|
+| init | O |https://github.com/seyxxn/GitHubPractice#313-git-%EC%9B%90%EA%B2%A9-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%83%9D%EC%84%B1|
+| log | O | https://github.com/seyxxn/GitHubPractice#45-%EC%BB%A4%EB%B0%8B-%ED%9E%88%EC%8A%A4%ED%86%A0%EB%A6%AC-%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0|
+| merge | O |https://github.com/seyxxn/GitHubPractice#1-merge-%EC%9D%B4%EC%9A%A9|
+| pull | O | https://github.com/seyxxn/GitHubPractice#48-%EC%9B%90%EA%B2%A9%EC%A0%80%EC%9E%A5%EC%86%8C%EC%97%90%EC%84%9C-%EB%82%B4-%EB%A1%9C%EC%BB%AC%EC%A0%80%EC%9E%A5%EC%86%8C%EB%A1%9C-%EB%B3%B4%EB%82%B4%EA%B8%B0|
+| push | O | https://github.com/seyxxn/GitHubPractice#46-%EB%82%B4-%EB%A1%9C%EC%BB%AC%EC%A0%80%EC%9E%A5%EC%86%8C%EC%97%90%EC%84%9C-%EC%9B%90%EA%B2%A9%EC%A0%80%EC%9E%A5%EC%86%8C%EB%A1%9C-%EB%B3%B4%EB%82%B4%EA%B8%B0|
+| rebase | X |https://github.com/seyxxn/GitHubPractice#2-rebase-%EC%9D%B4%EC%9A%A9|
+| remote | O | https://github.com/seyxxn/GitHubPractice#41-%EC%9B%90%EA%B2%A9%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%A1%B0%EC%9E%91|
+| reset --hard | O | https://github.com/seyxxn/GitHubPractice#49-%EA%B3%BC%EA%B1%B0%EC%9D%98-%EC%BB%A4%EB%B0%8B%EC%9C%BC%EB%A1%9C-%EB%8F%8C%EC%95%84%EA%B0%80%EA%B8%B0|
+| status | O|https://github.com/seyxxn/GitHubPractice#43-%ED%8C%8C%EC%9D%BC-%EC%83%81%ED%83%9C-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0|
+| tag | O | https://github.com/seyxxn/GitHubPractice#410-%ED%83%9C%EA%B7%B8tag-%EB%82%A8%EA%B8%B0%EA%B8%B0|
