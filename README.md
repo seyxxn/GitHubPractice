@@ -14,7 +14,7 @@ GitHub repository URL : <https://github.com/seyxxn/GitHubPractice>
 **푸시(push)** : 파일을 추가하거나 변경한 내용을 원격 저장소에 업로드하는 작업 (즉, 로컬저장소에 커밋한 파일들을 원격저장소에 추가하는 작업)  
 **브랜치(branch)** : 하나의 프로젝트를 여러 갈래로 나누어 관리 가능하게 하는 기능, 최초 Git 초기화 시에는 기본적으로 **master** 브랜치가 생성   
 
-![gitstate](gitstate.png)
+![gitstate](src/gitstate.png)
 <Git의 3가지 상태>  
 Committed : 데이터가 로컬 저장소에 안전하게 저장  
 Modified : 수정한 파일을 아직 로컬 저장소에 커밋하지 않음  
@@ -28,20 +28,20 @@ Git SCM URL : <https://git-scm.com/>
 
 2.2 Git Bash에서 깃 버전 확인
 > ### git --version  
-![버전확인](versionCheck.png)
+![버전확인](src/versionCheck.png)
 
 2.3 Git 사용자 등록 및 확인  
 - Git 설치 후에는 Git의 사용 환경을 적절하게 설정해 주어야 함  
 **git config** 명령어로 설정 내용을 확인하고 변경할 수 있음 
 > ### git config --global user.name "name"  
 > ### git config --global user.email "emailAddress"  
-![사용자등록](user.png) 
+![사용자등록](src/user.png) 
 - 프로젝트 마다 다른 설정을 하고 싶다면 --global 옵션을 제거  
 -  --global 옵션을 넣는다면 이 컴퓨터에서 작업하는 모든 프로젝트에 공통으로 적용 
 
 > ### git config --list
 
-![확인](userCheck.png)  
+![확인](src/serCheck.png)  
 - --list 옵션을 통해 사용자 확인 가능  
 
 ## **(3) Git 저장소 생성**
@@ -53,27 +53,27 @@ Git SCM URL : <https://git-scm.com/>
 
 3.1.1 로컬저장소로 사용할 폴더 생성  
 
-![local](local.png)
+![local](src/local.png)
 - SE_gitHub 폴더 생성  
 
 3.1.2 해당 저장소로 위치 이동  
 - 방법 1 ) **cd** (change directory) 명령어 사용  
 > cd [로컬저장소 경로]  
 
-![cd](cd.png)  
+![cd](src/cd.png)  
 - 방법 2 ) 해당 로컬 저장소 폴더에서 마우스 우 클릭 후 Git Bash Here 실행  
 
-![gitbash](gitbash.png)  
-![이동완료](gitbash2.png)  
+![gitbash](src/gitbash.png)  
+![이동완료](src/gitbash2.png)  
 
 3.1.3 Git 원격 저장소 생성  
 - **git init**은 버전 관리를 하고 싶은 폴더에서 초기화를 하는 준비  
 현재 디렉토리를 기준으로 Git 저장소가 생성됨
 > git init  
 
-![init](init.png)   
+![init](src/init.png)   
 
-![gitFolder](gitfolder.png)  
+![gitFolder](src/gitfolder.png)  
 
 - .git 폴더 생성됨 (새로운 Git 저장소가 생성) 
 
@@ -89,24 +89,24 @@ Git SCM URL : <https://git-scm.com/>
 4.1 원격저장소 조작  
 >  git remote add [remote repository의 이름] [원격 저장소 github URL]  
 
-![remote](remote.png)  
+![remote](src/remote.png)  
 
 - 원격 저장소와 해당 로컬 저장소를 연결할 수 있음  
 
 > git remote 
 
-![remoteCheck](remoteCheck.png)
+![remoteCheck](src/remoteCheck.png)
 - 추가한 원격저장소의 이름 목록을 확인
 
 4.2  파일 추가하기  
 
-![문서생성](filecreate.png)  
+![문서생성](src/filecreate.png)  
 - 로컬저장소에 Markdown_tutorial.md 문서 생성 후,
 
 - **git add**를 사용하여 파일 추가 가능
 > git add [파일]  
 
-![add](add.png)
+![add](src/add.png)
 
 > git add .
 - 모든 파일을 한번에 추가 가능 
@@ -115,7 +115,7 @@ Git SCM URL : <https://git-scm.com/>
 - **git status**는 현재 나의 로컬 폴더와 Git과의 상태를 싱크 상태를 체크
 > git status  
 
-![초기상태](status1.png)
+![초기상태](src/status1.png)
 - on branch master는 현재 작업중인 브랜치가 master 임을 의미 (기본 branch : master)  
 - 현재, 로컬 저장소에 파일을 추가하고 아직 커밋(뒤에서 다룰 예정)하지 않았기 때문에 No commits yet 상태  
 - new file : Markdown_tutorial.md 추가 된 파일 나타냄
@@ -132,7 +132,7 @@ Git SCM URL : <https://git-scm.com/>
 
 > git commit -m "커밋 메세지"
 
-![commit](commit1.png)
+![commit](src/commit1.png)
 
 - -m은 커밋메세지 옵션
 
@@ -142,7 +142,7 @@ Git SCM URL : <https://git-scm.com/>
 > git commit -am "커밋 메세지"
 - a와m의 옵션을 합침  
 
-![aftercommit](aftercommit.png)
+![aftercommit](src/aftercommit.png)
 - 커밋 한 후에 status 명령을 통해 상태 확인
 - 더 이상 커밋할 것이 없음을 의미
 
@@ -150,14 +150,14 @@ Git SCM URL : <https://git-scm.com/>
 - **git log**로 로컬저장소의 커밋 히스토리를 탐색
 > git log
 
-![log](log.png)  
+![log](src/log.png)  
 
 4.6 내 로컬저장소에서 원격저장소로 보내기
 - **git push** 를 사용하여 로컬저장소에 커밋한 파일들을 원격저장소에 추가
 > git push [원격 저장소 이름] [브랜치명]
 
-![push](push.png)
-![pushgithub](pushgithub.png)
+![push](src/push.png)
+![pushgithub](src/pushgithub.png)
 - push 하고 나면 github에서 커밋 내용을 볼 수 있음
 - push 없이 커밋만 하면 현재의 변경 내용은 아직 로컬 저장소의 HEAD안에 머물고 있음, 이 변경 내용을 원격 서버로 올리려면 **push**가 필요  
 
@@ -168,7 +168,7 @@ Git SCM URL : <https://git-scm.com/>
 4.7.1 branch 목록 보기
 > git branch
 
-![branch1](branch1.png)
+![branch1](src/branch1.png)
 
 - 현재 브랜치 목록을 살펴봄
 - master 브랜치(기본 브랜치)가 존재하며, *는 현재 활성화 된 브랜치
@@ -181,24 +181,24 @@ Git SCM URL : <https://git-scm.com/>
 - 독립적인 공간을 생성함
 - 새로 만든 firstBranch는 master와 완전히 동일한 상태를 가진 공간
 
-![수정](vi.png)
-![수정](modi.png)
-![과정](addstatus.png)
-![브랜치커밋](branch2.png)
+![수정](src/vi.png)
+![수정](src/modi.png)
+![과정](src/addstatus.png)
+![브랜치커밋](src/branch2.png)
 - 브랜치에서 수정을 한 후에 커밋하면 firstBranch 에만 기록되며 master 브랜치에는 어떤 영향도 주지 않음
 
-![브랜치깃허브](branchgit.png)
-![](addbranch.png)
+![브랜치깃허브](src/branchgit.png)
+![](src/addbranch.png)
 
         * 새로 만든 브런치를 원격 저장소로 전송하기 전 까지는 다른 사람들이 접근할 수 없음
                 git push origin [브랜치명] 을 통해 push해야함  
             
-![사진](push1.png)
+![사진](src/push1.png)
 
 4.7.3 브랜치 이동 하기
 >git checkout [브랜치명]
 
-![checkout](checkout.png)
+![checkout](src/checkout.png)
 - 독립된 작업 공간인 브랜치를 자유롭게 이동할 수 있음
 
 > git checkout -b [브랜치명]
@@ -211,7 +211,7 @@ Git SCM URL : <https://git-scm.com/>
 > git merge [브랜치명]
 - secondBranch에 작성한 파일을 master 브랜치에 병합해보자.
 
-![merge](merge.png)
+![merge](src/merge.png)
 
 - master 브랜치로 이동 후에 **merge** 사용
 
@@ -235,7 +235,7 @@ Git SCM URL : <https://git-scm.com/>
 4.10 태그(tag) 남기기
 > git tag [태그이름] [커밋아이디]  
 
-![tag](tag.png)
+![tag](src/tag.png)
 - 식별자는 git log 하면 알 수 있음
 
 
