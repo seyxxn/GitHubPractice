@@ -171,12 +171,12 @@ Git SCM URL : <https://git-scm.com/>
 ![branch1](src/branch1.png)
 
 - 현재 브랜치 목록을 살펴봄
-- master 브랜치(기본 브랜치)가 존재하며, *는 현재 활성화 된 브랜치
+- master 브랜치(기본 브랜치)가 존재하며, \*는 현재 활성화 된 브랜치
 
 4.7.2 branch 생성 하기
 > git branch [브랜치명]
 
-![branchFirst](firstBranch.png)
+![branchFirst](src/firstBranch.png)
 - 브랜치 생성
 - 독립적인 공간을 생성함
 - 새로 만든 firstBranch는 master와 완전히 동일한 상태를 가진 공간
