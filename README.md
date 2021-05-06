@@ -260,7 +260,7 @@ Git SCM URL : <https://git-scm.com/>
 
 - 수정 후 commit 함  
 
-![log](src/log2.png)  
+![mistakelog](src/mistakelog.png)  
 
 - log 살펴보면 이 전에 commit한 내용이 출력 됨
 
